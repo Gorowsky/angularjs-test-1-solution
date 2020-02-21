@@ -1,0 +1,25 @@
+#meals .meal-list {
+  padding-left: 0;
+}
+
+/* 
+  Tutaj zaznaczyłem żeby wszystkie eventy dzieci meal-list-itemu
+  były ignorowane. Wtedy nie trzeba pisać dodatkowych warunków
+  na filtrowanie elementów w metodzie toggleMeal.
+ */
+#meals .meal-list .meal-list-item * {
+  pointer-events: none;
+}
+
+#meals .meal-list .meal-list-item {
+  background-color: #f9f9f9;
+  border: 1px solid #e7e7e7;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+#meals .meal-list .meal-list-item:hover {
+  cursor: pointer;
+}
