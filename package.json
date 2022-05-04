@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --hot --inline --config webpack.dev.js"
   },
   "dependencies": {
-    "angular": "^1.7.9",
+    "angular": "^1.8.3",
     "angular-route": "1.5.8"
   },
   "devDependencies": {
